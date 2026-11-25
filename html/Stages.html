@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stages</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/RegleCSS.css">
+    </head>
+    <body id="conteneur_global" class="contenu_page">
+        <nav>
+            <div id="Menu" class="image">
+                <div id="profil_accueil" class="haut-menu">
+                    <img src="../Image/Pictogramme_chapeau_etudiant.jpg" alt="Pictogramme de châpeau d'étudiant">
+                    <div id="text-profil" class="text-menu">
+                        <span><strong>BOSC Thomas</strong></span>
+                        <span><em>BTS SIO</em></span>
+                    </div>
+                </div>              
+                <div id="menu_accueil" class="menu">
+                    <img src="../Image/accueil-icone-logo-maison.jpg" alt="Pictogramme maison">
+                    <a href="../index.html"><span>Accueil</span></a>
+                </div>
+                <div id="menu_presentation" class="menu">
+                    <img src="../Image/malette.png" alt="Pictogramme malette">
+                    <a href="BTS-SIO_et_compétences.html"><span>BTS SIO</span></a>
+                </div>
+                <div id="menu_projet_PPE" class="menu">
+                    <img src="../Image/calendrier_logo.jpg" alt="Pictogramme de calendrier">
+                    <a href="Projets_réalisés.html"><span>Projet PPE</span></a>
+                </div>
+                <div id="menu_stages" class="menu">
+                    <img src="../Image/logo_valise.jpg" alt="Pictogramme de valise">
+                    <a href="Stages.html"><span>Stages</span></a>
+                </div>
+                <div id="menu_veille" class="menu">
+                    <img src="../Image/logo_loupe.jpg" alt="Pictogramme de loupe">
+                    <a href="Veilles_technologiques.html"><span>Veille technologique</span></a>
+                </div>
+                <div id="menu_centre_interet" class="menu">
+                    <img src="../Image/logo_coeur.png" alt="Pictogramme de coeur">
+                    <a href="Centres_d'interets.html"><span>Centres d'intérêt</span></a>
+                </div>
+                <div id="menu_contact" class="menu">
+                    <img src="../Image/logo_enveloppe.jpg" alt="Pictogramme d'enveloppe">
+                    <a href="Contact.html"><span>Contact</span></a>
+                </div>
+                <div id="reseau" class="menu">
+                    <div class="logo-menu">
+                        <a href="https://github.com/boscthomas06"><img src="../Image/logo-github.jpg" alt="logo de Github"></a>
+                        <a href="https://www.linkedin.com/in/thomas-bosc-20840a396/"><img src="../Image/logo_linkedin.png" alt="logo logo_linkedin"></a>
+                    </div>
+                    <span>2026 - Portfolio</span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="conteneur_HM" class="conteneur_HM">
+            <header id="contenu" class="header_accueil">
+                <div id="haut_page" class="haut_accueil">
+                    <div id="texte_accueil" class="titre_accueil">
+                        <h1>Stage de 1ère année — Mairie de Roussillon</h1>
+                        <p>Cellule Informatique & Téléphonie • Du 18 mai au 26 juin 2026 • Tuteur : Sofiene Atiat</p>
+                    </div>
+                    <div id="campus" class="saint-denis">
+                        <img src="../Image/saint-denis.webp" alt="Campus Saint-Denis">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Zone défilante principale -->
+            <main id="main_stages" class="main_stages_scroll">
+                <div class="conteneur_stage">
+                    
+                    <!-- Section 1 : Contexte et structure d'accueil -->
+                    <section class="carte_stage_entete">
+                        <div class="image_stage_grande">
+                            <img src="../Image/Service_technique_Roussillon.webp" alt="Bâtiment du Service Technique de Roussillon">
+                            <span class="legende_img">Locaux des Services Techniques</span>
+                        </div>
+                        <div class="texte_stage_intro">
+                            <div class="badge_stage">Structure d'accueil & Contexte</div>
+                            <h2>La Mairie de Roussillon (Isère)</h2>
+                            <p>Commune d'environ <strong>8 500 habitants</strong> dirigée par le maire Robert Duranton (réélu en 2026) et 8 adjoints, la mairie gère de nombreux services publics (État civil, urbanisme/PLU, écoles, CCAS, police municipale) répartis sur <strong>10 sites communaux</strong>.</p>
+                            <p>J'ai intégré la <strong>cellule informatique et téléphonie</strong> au sein du <strong>Service Technique</strong> (15 à 20 agents), responsable de la maintenance du parc matériel et du réseau reliant l'ensemble des bâtiments via trois cœurs de réseau en fibre optique.</p>
+                        </div>
+                    </section>
+
+                    <!-- Section 2 : Mission principale (Inventaire réseau) -->
+                    <section class="carte_mission_detail">
+                        <div class="contenu_mission_texte">
+                            <div class="badge_stage">Mission Principale • Infrastructure Réseau</div>
+                            <h2>Inventaire complet des switchs et brassage de la ville</h2>
+                            <p><strong>Contexte :</strong> Dans le cadre de la Phase 1 du renouvellement de l'infrastructure (remplacement d'une dizaine de switchs Alcatel vieillissants de plus de 10 ans, vulnérables et hors garantie, pour déployer de futurs VLAN par service), j'ai cartographié l'intégralité du parc (<strong>13 switchs et 6 box Internet</strong>).</p>
+                            <ul>
+                                <li><strong>Méthodologie & terrain :</strong> Travail en binôme sur les créneaux 12h–13h pour ne pas gêner les agents. Tests de continuité au câble Ethernet et communication en direct via 3CX pour tracer la chaîne complète : <em>Appareil → Prise murale → Port baie → Port switch</em>.</li>
+                                <li><strong>Documentation & Projet :</strong> Saisie au propre sur Excel, accès aux zones complexes (combles de la Maison du Patrimoine), participation à un audit sur site avec un ingénieur Orange et contribution au Cahier des Clauses Techniques Particulières (CCTP) du marché public.</li>
+                            </ul>
+                        </div>
+                        <div class="visuel_mission">
+                            <img src="../Image/coeur_réseau.jpg" alt="Cœurs de réseau Alcatel-Lucent OmniSwitch">
+                            <span class="legende_img">Cœurs de réseau fibre (Alcatel OmniSwitch)</span>
+                        </div>
+                    </section>
+
+                    <!-- Section 3 : Incidents réseau & Téléphonie 3CX (2 colonnes avec images) -->
+                    <div class="grille_deux_colonnes">
+                        
+                        <section class="carte_mission_colonne">
+                            <div class="badge_stage">Réseau & Sécurité</div>
+                            <h3>Résolution d'une panne générale (Conflit DHCP)</h3>
+                            <p>Dès la première semaine, une panne générale a paralysé l'accès réseau de la mairie suite à la réinitialisation accidentelle d'une box à la Police Municipale (remise en service du serveur DHCP par défaut sur le port WAN).</p>
+                            <ul>
+                                <li><strong>Diagnostic :</strong> Analyse des adresses IP des postes affectés et isolation progressive des box par bâtiment.</li>
+                                <li><strong>Remédiation :</strong> Passage de mon poste en routage statique pour accéder à la box, attribution d'une IP fixe, désactivation du DHCP et sécurisation du Wi-Fi avec un <strong>SSID masqué</strong>.</li>
+                                <li><strong>Suivi :</strong> Attribution d'une IP fixe sur le poste d'une adjointe suite aux perturbations de bail DHCP.</li>
+                            </ul>
+                        </section>
+
+                        <section class="carte_mission_colonne">
+                            <div class="badge_stage">Téléphonie IP</div>
+                            <h3>Administration et déploiement sous 3CX</h3>
+                            <p>Intervention sur l'architecture de téléphonie IP de la collectivité hébergée sur le serveur 3CX de la communauté de communes à Saint-Maurice-l'Exil.</p>
+                            <ul>
+                                <li><strong>Postes de secours :</strong> Configuration de 3 téléphones IP (attribution des numéros d'extension, adresses MAC, lien de provisioning et résolution d'un blocage lié aux certificats de confiance).</li>
+                                <li><strong>Routage d'appels :</strong> Paramétrage des renvois d'appels et de l'identifiant sortant pour le service des Ressources Humaines.</li>
+                            </ul>
+                            <div class="mini_visuel_bas">
+                                <img src="../Image/config_3cx.jpg" alt="Interface de configuration 3CX">
+                                <span class="legende_img">Paramétrage d'une extension sur 3CX</span>
+                            </div>
+                        </section>
+
+                    </div>
+
+                    <!-- Section 4 : Support, Maintenance & Activités annexes -->
+                    <section class="carte_mission_detail">
+                        <div class="contenu_mission_texte">
+                            <div class="badge_stage">Support Utilisateurs & Maintenance Parc</div>
+                            <h2>Assistance technique, déploiement et gestion matérielle</h2>
+                            <p>Au quotidien, j'ai assuré le support de proximité auprès des agents municipaux, des élus et des écoles sur l'ensemble des sites :</p>
+                            <ul>
+                                <li><strong>Maintenance matérielle & OS :</strong> Ajout de barrettes de RAM (4 Go) sur des postes lents, migration de postes Windows 10 vers <strong>Windows 11 via Rufus</strong> avec sauvegarde préalable, et gestion d'une surchauffe PC au CCAS.</li>
+                                <li><strong>Imprimantes & Logiciels :</strong> Installation réseau par IP fixe, configuration du scan vers dossier partagé (<em>SMB</em>), résolution de conflits d'antivirus, recherche d'identifiants dans <strong>Active Directory</strong>, et diagnostic applicatif (logiciel <em>Millésime</em> au CCAS).</li>
+                                <li><strong>Projets & Logistique :</strong> Analyse comparative de 3 offres logicielles pour la restauration scolaire, préparation audiovisuelle des salles de spectacle (Sémaphore, Espace) et achats/bons de commande matériel.</li>
+                            </ul>
+                        </div>
+                        <div class="visuel_mission">
+                            <img src="../Image/scan_reseau.jpg" alt="Configuration du chemin réseau de scan sur copieur">
+                            <span class="legende_img">Configuration d'un chemin de scan réseau</span>
+                        </div>
+                    </section>
+
+                    <!-- Section 5 : Bilan personnel et professionnel -->
+                    <section class="carte_bilan">
+                        <div class="badge_stage">Synthèse & Retour d'expérience</div>
+                        <h2>Bilan personnel et compétences développées</h2>
+                        <p>Ce stage m'a permis de consolider mes acquis de première année de BTS SIO en conditions réelles et d'acquérir une véritable <strong>méthodologie de diagnostic</strong> (poser les bonnes questions aux utilisateurs, isoler la source d'une panne réseau ou logicielle). J'ai également gagné en <strong>autonomie</strong>, en <strong>organisation</strong> et en gestion des priorités.</p>
+                        <p>Sur le plan humain, cette immersion au sein du service technique m'a appris à m'adapter à différents profils de collègues. Bien que très formatrice, cette expérience m'a permis de prendre du recul sur mon projet professionnel et de constater que je ne souhaite pas m'orienter vers ce type de poste de support de proximité sur le long terme.</p>
+                    </section>
+
+                </div>
+            </main>
+        </div>
+
+        <footer>  
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Veille technologique</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/RegleCSS.css">
+    </head>
+    <body id="conteneur_global" class="contenu_page">
+        <nav>
+            <div id="Menu" class="image">
+                <div id="profil_accueil" class="haut-menu">
+                    <img src="../Image/Pictogramme_chapeau_etudiant.jpg" alt="Pictogramme de châpeau d'étudiant">
+                    <div id="text-profil" class="text-menu">
+                        <span><strong>BOSC Thomas</strong></span>
+                        <span><em>BTS SIO</em></span>
+                    </div>
+                </div>              
+                <div id="menu_accueil" class="menu">
+                    <img src="../Image/accueil-icone-logo-maison.jpg" alt="Pictogramme maison">
+                    <a href="../index.html"><span>Accueil</span></a>
+                </div>
+                <div id="menu_presentation" class="menu">
+                    <img src="../Image/malette.png" alt="Pictogramme malette">
+                    <a href="BTS-SIO_et_compétences.html"><span>BTS SIO</span></a>
+                </div>
+                <div id="menu_projet_PPE" class="menu">
+                    <img src="../Image/calendrier_logo.jpg" alt="Pictogramme de calendrier">
+                    <a href="Projets_réalisés.html"><span>Projet PPE</span></a>
+                </div>
+                <div id="menu_stages" class="menu">
+                    <img src="../Image/logo_valise.jpg" alt="Pictogramme de valise">
+                    <a href="Stages.html"><span>Stages</span></a>
+                </div>
+                <div id="menu_veille" class="menu">
+                    <img src="../Image/logo_loupe.jpg" alt="Pictogramme de loupe">
+                    <a href="Veilles_technologiques.html"><span>Veille technologique</span></a>
+                </div>
+                <div id="menu_centre_interet" class="menu">
+                    <img src="../Image/logo_coeur.png" alt="Pictogramme de coeur">
+                    <a href="Centres_d'interets.html"><span>Centres d'intérêt</span></a>
+                </div>
+                <div id="menu_contact" class="menu">
+                    <img src="../Image/logo_enveloppe.jpg" alt="Pictogramme d'enveloppe">
+                    <a href="Contact.html"><span>Contact</span></a>
+                </div>
+                <div id="reseau" class="menu">
+                    <div class="logo-menu">
+                        <a href="https://github.com/boscthomas06"><img src="../Image/logo-github.jpg" alt="logo de Github"></a>
+                        <a href="https://www.linkedin.com/in/thomas-bosc-20840a396/"><img src="../Image/logo_linkedin.png" alt="logo logo_linkedin"></a>
+                    </div>
+                    <span>2026 - Portfolio</span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="conteneur_HM" class="conteneur_HM">
+            <header id="contenu" class="header_accueil">
+                <div id="haut_page" class="haut_accueil">
+                    <div id="texte_accueil" class="titre_accueil">
+                        <h1>Veille Technologique</h1>
+                        <p>Thématique : L’IA dans le système, le réseau et la cybersécurité</p>
+                    </div>
+                    <div id="campus" class="saint-denis">
+                        <img src="../Image/saint-denis.webp" alt="Campus Saint-Denis">
+                    </div>
+                </div>
+            </header>
+
+            <main id="main_veille" class="main_stages_scroll">
+                <div class="conteneur_veille">
+                    
+                    <!-- Introduction / État de l'art initial -->
+                    <section class="carte_veille_intro">
+                        <div class="badge_stage">Thématique & État de l'art initial</div>
+                        <h2>Pourquoi surveiller l'Intelligence Artificielle en infrastructure et cybersécurité ?</h2>
+                        <p>Dans le cadre de mon parcours <strong>BTS SIO option SISR</strong>, j'ai choisi de suivre l'impact de l'<strong>Intelligence Artificielle sur les systèmes, les réseaux et la cybersécurité</strong>. Aujourd'hui, l'IA est une arme à double tranchant : elle permet d'automatiser l'administration des infrastructures (<em>AIOps / AgenticOps</em>) et de filtrer les menaces en temps réel, mais elle est également exploitée par les attaquants pour découvrir des failles critiques (<em>0-day</em>) et industrialiser les cyberattaques.</p>
+                        <p><strong>Outils de veille utilisés :</strong> Agrégateurs de flux RSS (Feedly), alertes du CERT-FR, médias spécialisés (ZDNet, French Breaches) et conférences constructeurs (Cisco Live). <em>Cliquez sur un mois ci-dessous pour dérouler l'analyse complète.</em></p>
+                    </section>
+
+                    <!-- 1. Septembre 2026 -->
+                    <details class="carte_article_veille">
+                        <summary class="entete_cliquable">
+                            <div class="infos_entete">
+                                <div class="badges_ligne">
+                                    <span class="badge_mois">Septembre 2026</span>
+                                    <span class="tag_domaine">Télécoms & Sécurité • IA Temps Réel</span>
+                                </div>
+                                <h3>Bouygues Telecom déploie une option Anti-Spam propulsée par l'IA au cœur de son réseau</h3>
+                            </div>
+                            <span class="icone_derouler">▼</span>
+                        </summary>
+                        <div class="contenu_deroulant">
+                            <div class="corps_article_avec_image">
+                                <div class="texte_article_veille">
+                                    <p class="resume_article">Pour contrer l'industrialisation des fraudes téléphoniques et des campagnes d'appels automatisés (appels silencieux servant à vérifier si une ligne est active avant une attaque ciblée), Bouygues Telecom lance en partenariat avec <strong>Hiya</strong> un filtre Anti-Spam directement intégré à son cœur de réseau mobile 4G/5G.</p>
+                                    <ul class="points_cles_veille">
+                                        <li><strong>Fonctionnement sans application :</strong> L'IA analyse en temps réel les métadonnées des appels directement au niveau de l'infrastructure opérateur, protégeant les flottes professionnelles sans installation sur les terminaux.</li>
+                                        <li><strong>Hygiène numérique :</strong> Les experts rappellent l'importance de ne pas rappeler les numéros inconnus silencieux et de laisser la messagerie filtrer les appels suspects.</li>
+                                        <li><strong>Déploiement :</strong> Proposée à 1 €/mois pour les entreprises (B2B) dès octobre 2026, cette solution démontre l'intégration native de l'IA défensive dans les infrastructures télécoms.</li>
+                                    </ul>
+                                </div>
+                                <div class="visuel_veille">
+                                    <img src="../Image/veille_septembre.jpg" alt="Option Anti-Spam IA Bouygues Telecom et Hiya">
+                                </div>
+                            </div>
+                            <div class="pied_article">
+                                <span><strong>Source :</strong> Communiqué Bouygues Telecom / Hiya (Septembre 2026)</span>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- 2. Octobre 2026 -->
+                    <details class="carte_article_veille">
+                        <summary class="entete_cliquable">
+                            <div class="infos_entete">
+                                <div class="badges_ligne">
+                                    <span class="badge_mois">Octobre 2026</span>
+                                    <span class="tag_domaine">Réseaux & Cloud • AgenticOps</span>
+                                </div>
+                                <h3>Cisco dévoile « Cloud Control » : le passage de l'AIOps vers l'AgenticOps</h3>
+                            </div>
+                            <span class="icone_derouler">▼</span>
+                        </summary>
+                        <div class="contenu_deroulant">
+                            <div class="corps_article_avec_image">
+                                <div class="texte_article_veille">
+                                    <p class="resume_article">Lors de Cisco Live 2026, Cisco a présenté <strong>Cloud Control</strong>, une console unifiée pilotant le réseau, la cybersécurité, l'observabilité et les environnements multicloud (AWS, Azure, Google Cloud). L'innovation majeure réside dans l'<strong>AgenticOps</strong> : des agents IA capables non seulement de détecter un incident, mais aussi d'en analyser la cause racine, d'exécuter des actions correctives et de documenter l'opération sous supervision humaine.</p>
+                                    <ul class="points_cles_veille">
+                                        <li><strong>Cloud Control Studio :</strong> Environnement permettant aux administrateurs d'interagir en langage naturel et de créer leurs propres agents IA d'automatisation.</li>
+                                        <li><strong>Live Protect :</strong> Protection dynamique permettant aux commutateurs et équipements Cisco de bloquer l'exploitation d'une nouvelle faille sans redémarrage ni interruption de service.</li>
+                                        <li><strong>Quantum Ready :</strong> Intégration d'un démarrage sécurisé (<em>Secure Boot</em>) et d'outils d'audit (<em>Cisco IQ</em>) pour préparer la migration vers la cryptographie post-quantique (PQC) face aux attaques « harvest now, decrypt later ».</li>
+                                    </ul>
+                                </div>
+                                <div class="visuel_veille">
+                                    <img src="../Image/veille_octobre.jpg" alt="Cisco Cloud Control et AgenticOps">
+                                </div>
+                            </div>
+                            <div class="pied_article">
+                                <span><strong>Source :</strong> Cisco Live 2026 / Documentation technique Cisco Cloud Control</span>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- 3. Novembre 2026 -->
+                    <details class="carte_article_veille">
+                        <summary class="entete_cliquable">
+                            <div class="infos_entete">
+                                <div class="badges_ligne">
+                                    <span class="badge_mois">Novembre 2026</span>
+                                    <span class="tag_domaine">Cybersécurité • Vulnérabilités & IA</span>
+                                </div>
+                                <h3>Failles critiques dans PHP et automatisation de l'exploitation par IA</h3>
+                            </div>
+                            <span class="icone_derouler">▼</span>
+                        </summary>
+                        <div class="contenu_deroulant">
+                            <div class="corps_article_avec_image">
+                                <div class="texte_article_veille">
+                                    <p class="resume_article">De nouvelles vulnérabilités critiques ont été découvertes dans l'écosystème PHP, accentuant la menace d'attaques automatisées. Les groupes cybercriminels exploitent désormais des agents IA autonomes capables de scanner le web, d'identifier les versions non patchées et de générer des scripts d'exploitation sur-mesure en quelques minutes.</p>
+                                    <ul class="points_cles_veille">
+                                        <li><strong>Vecteur d'attaque industrialisé :</strong> L'utilisation d'outils offensifs dopés à l'IA permet aux attaquants de contourner plus rapidement les défenses applicatives traditionnelles (WAF).</li>
+                                        <li><strong>Réaction des équipes SecOps :</strong> Nécessité absolue de mettre en place une veille active des correctifs (patch management) et de durcir les configurations serveurs.</li>
+                                    </ul>
+                                </div>
+                                <div class="visuel_veille">
+                                    <img src="../Image/veille_novembre.jpg" alt="Illustration éléphant PHP - Veille Novembre">
+                                </div>
+                            </div>
+                            <div class="pied_article">
+                                <span><strong>Source :</strong> CERT-FR / Veille de vulnérabilités PHP (Novembre 2026)</span>
+                            </div>
+                        </div>
+                    </details>
+
+                </div>
+            </main>
+        </div>
+        <footer>  
+        </footer>
+    </body>
+</html>

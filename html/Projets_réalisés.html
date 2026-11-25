@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projets réalisés (PPE)</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/RegleCSS.css">
+    </head>
+    <body id="conteneur_global" class="contenu_page">
+        <nav>
+            <div id="Menu" class="image">
+                <div id="profil_accueil" class="haut-menu">
+                    <img src="../Image/Pictogramme_chapeau_etudiant.jpg" alt="Pictogramme de châpeau d'étudiant">
+                    <div id="text-profil" class="text-menu">
+                        <span><strong>BOSC Thomas</strong></span>
+                        <span><em>BTS SIO</em></span>
+                    </div>
+                </div>              
+                <div id="menu_accueil" class="menu">
+                    <img src="../Image/accueil-icone-logo-maison.jpg" alt="Pictogramme maison">
+                    <a href="../index.html"><span>Accueil</span></a>
+                </div>
+                <div id="menu_presentation" class="menu">
+                    <img src="../Image/malette.png" alt="Pictogramme malette">
+                    <a href="BTS-SIO_et_compétences.html"><span>BTS SIO</span></a>
+                </div>
+                <div id="menu_projet_PPE" class="menu">
+                    <img src="../Image/calendrier_logo.jpg" alt="Pictogramme de calendrier">
+                    <a href="Projets_réalisés.html"><span>Projet PPE</span></a>
+                </div>
+                <div id="menu_stages" class="menu">
+                    <img src="../Image/logo_valise.jpg" alt="Pictogramme de valise">
+                    <a href="Stages.html"><span>Stages</span></a>
+                </div>
+                <div id="menu_veille" class="menu">
+                    <img src="../Image/logo_loupe.jpg" alt="Pictogramme de loupe">
+                    <a href="Veilles_technologiques.html"><span>Veille technologique</span></a>
+                </div>
+                <div id="menu_centre_interet" class="menu">
+                    <img src="../Image/logo_coeur.png" alt="Pictogramme de coeur">
+                    <a href="Centres_d'interets.html"><span>Centres d'intérêt</span></a>
+                </div>
+                <div id="menu_contact" class="menu">
+                    <img src="../Image/logo_enveloppe.jpg" alt="Pictogramme d'enveloppe">
+                    <a href="Contact.html"><span>Contact</span></a>
+                </div>
+                <div id="reseau" class="menu">
+                    <div class="logo-menu">
+                        <a href="https://github.com/boscthomas06"><img src="../Image/logo-github.jpg" alt="logo de Github"></a>
+                        <a href="https://www.linkedin.com/in/thomas-bosc-20840a396/"><img src="../Image/logo_linkedin.png" alt="logo logo_linkedin"></a>
+                    </div>
+                    <span>2026 - Portfolio</span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="conteneur_HM" class="conteneur_HM">
+            <header id="contenu" class="header_accueil">
+                <div id="haut_page" class="haut_accueil">
+                    <div id="texte_accueil" class="titre_accueil">
+                        <h1>Projets Réalisés (PPE)</h1>
+                        <p>Projets Personnels Encadrés — BTS SIO Option SISR (1ère et 2ème année)</p>
+                    </div>
+                    <div id="campus" class="saint-denis">
+                        <img src="../Image/saint-denis.webp" alt="Campus Saint-Denis">
+                    </div>
+                </div>
+            </header>
+
+            <main id="main_ppe" class="main_stages_scroll">
+                <div class="conteneur_ppe">
+
+                    <!-- PROJET 1 : Simulation de Phishing (1ère année) -->
+                    <article class="carte_ppe">
+                        <div class="entete_ppe">
+                            <span class="badge_stage">PPE 1ère année • Cybersécurité & Sensibilisation</span>
+                            <h2>Campagne de simulation de Phishing au Pôle Supérieur Saint-Denis</h2>
+                        </div>
+
+                        <div class="grille_ppe_haut">
+                            <div class="bloc_info_ppe">
+                                <h3>1. Contexte & Cadre légal (RGPD)</h3>
+                                <p>Réalisé en équipe de trois étudiants au sein du Pôle Supérieur de Saint-Denis, ce projet visait à évaluer la vigilance des élèves et des professeurs face aux attaques par ingénierie sociale.</p>
+                                <p>Pour respecter le cadre légal (<strong>RGPD</strong>), nous avons signé une décharge officielle avec le responsable du parc informatique nous interdisant formellement de stocker ou consulter en clair les mots de passe saisis.</p>
+                            </div>
+
+                            <div class="bloc_info_ppe">
+                                <h3>2. Objectifs & Outils utilisés</h3>
+                                <ul>
+                                    <li><strong>Objectif :</strong> Sensibiliser les utilisateurs aux risques liés au vol d'identifiants et promouvoir les bons réflexes numériques.</li>
+                                    <li><strong>Matériel & Infrastructure :</strong> Raspberry Pi hébergeant la plateforme <strong>Gophish</strong> et un <strong>Serveur Web</strong> dédié.</li>
+                                    <li><strong>Technologies :</strong> HTML / CSS (clonage de la page de connexion Microsoft) et gestion d'envoi de mails (SMTP).</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bloc_travail_ppe">
+                            <h3>3. Travail réalisé & Déroulement technique</h3>
+                            <p>Nous avons configuré l'outil open source <strong>Gophish</strong> sur un Raspberry Pi afin de lancer plusieurs campagnes ciblées (<em>PROFS</em>, <em>ELEVE 1</em>, <em>ELEVE 2</em>). À partir d'une adresse d'expédition usurpant l'identité de Microsoft, les cibles recevaient un courriel les invitant à se connecter via un lien redirigeant vers notre fausse page d'authentification hébergée sur notre serveur web. Gophish permettait ensuite de suivre en temps réel le taux d'ouverture, les clics et les soumissions de formulaire.</p>
+                        </div>
+
+                        <!-- Section Résultats avec l'image Gophish -->
+                        <div class="bloc_resultats_ppe">
+                            <div class="texte_resultats_ppe">
+                                <h3>4. Résultats obtenus & Livraison</h3>
+                                <p>Sur l'ensemble des 4 campagnes lancées en mai 2026 (<strong>534 courriels envoyés</strong> aux professeurs et étudiants) :</p>
+                                <ul>
+                                    <li><strong>257 mails ouverts</strong> (soit environ 48 % d'ouverture).</li>
+                                    <li><strong>80 personnes ont cliqué</strong> sur le lien piégé (44 professeurs et 36 élèves).</li>
+                                    <li><strong>26 utilisateurs ont saisi leurs identifiants</strong> sur la fausse page (uniquement des élèves, aucun professeur n'ayant soumis ses identifiants).</li>
+                                    <li><strong>Livrable :</strong> Création et distribution d'un <strong>flyer de sensibilisation</strong> lors de la soutenance orale pour apprendre à repérer un mail frauduleux.</li>
+                                </ul>
+                            </div>
+                            <div class="visuel_ppe">
+                                <img src="../Image/projet_phishing.jpg" alt="Tableau de bord Gophish des campagnes de phishing">
+                                <span class="legende_img">Tableau de bord Gophish : suivi des campagnes (mai 2026)</span>
+                            </div>
+                        </div>
+
+                        <div class="pied_ppe_bilan">
+                            <div class="competences_ppe">
+                                <strong>Compétences E5 mobilisées :</strong>
+                                <span class="tag_comp">C1 - Gérer le patrimoine informatique</span>
+                                <span class="tag_comp">C4 - Travailler en mode projet</span>
+                                <span class="tag_comp">C5 - Mettre à disposition un service</span>
+                            </div>
+                            <p class="bilan_texte_ppe"><strong>5. Bilan personnel :</strong> Ce projet m'a permis de prendre en main un Raspberry Pi, de déployer un serveur web et de comprendre concrètement les mécanismes de l'ingénierie sociale (<em>social engineering</em>) afin de mieux protéger les utilisateurs en entreprise.</p>
+                        </div>
+                    </article>
+
+                    <!-- PROJET 2 : Infrastructure réseau d'entreprise (2ème année - Épreuve E6) -->
+                    <article class="carte_ppe">
+                        <div class="entete_ppe">
+                            <span class="badge_stage">PPE 2ème année • Infrastructure Systèmes & Réseaux (Projet E6)</span>
+                            <h2>Conception, déploiement et sécurisation d'une infrastructure réseau d'entreprise autonome</h2>
+                        </div>
+
+                        <div class="grille_ppe_haut">
+                            <div class="bloc_info_ppe">
+                                <h3>1. Contexte & Besoin de l'entreprise</h3>
+                                <p>Une entreprise crée une nouvelle entité destinée à devenir autonome à long terme. Intégré au service informatique, ma mission est de concevoir une infrastructure évolutive respectant dès le départ les bonnes pratiques professionnelles.</p>
+                                <p><strong>Organisation (10 collaborateurs, 3 services) :</strong> <em>Direction</em> (Directeur, Assistante, DRH, Comptable), <em>Commercial</em> (Directeur commercial + 2 commerciaux) et <em>Production</em> (Directeur technique + 2 ingénieurs d'études), répartis en deux profils de sécurité : <strong>VIP</strong> (les 4 directeurs) et <strong>Employés</strong>.</p>
+                            </div>
+
+                            <div class="bloc_info_ppe">
+                                <h3>2. Environnement matériel & Contraintes réseau</h3>
+                                <ul>
+                                    <li><strong>Matériel en baie 15U :</strong> 1 serveur physique Lenovo sous <strong>Windows Server Hyper-V</strong>, 1 routeur/switch <strong>MikroTik</strong> (<code>10.20.14.254</code>) et 2 postes clients physiques configurés en double/triple boot.</li>
+                                    <li><strong>Interconnexion WAN :</strong> Raccordement au réseau SIO (<code>10.21.3.214</code>) via la passerelle montante <code>10.21.3.1</code> en <strong>routage statique</strong> (sans NAT) et résolution via le DNS <code>192.168.10.120</code>.</li>
+                                    <li><strong>Segmentation :</strong> Découpage de la plage attribuée en <strong>4 sous-réseaux (/26)</strong>.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Tableau récapitulatif avec les bonnes adresses IP -->
+                        <div class="bloc_travail_ppe">
+                            <h3>3. Architecture Réseau & Plan d'adressage</h3>
+                            <p>Le réseau est segmenté en sous-réseaux distincts pour isoler les serveurs, les postes utilisateurs et la zone exposée (DMZ) :</p>
+                            <table class="tableau_ppe">
+                                <thead>
+                                    <tr>
+                                        <th>Zone / VLAN</th>
+                                        <th>Sous-réseau (/26)</th>
+                                        <th>Équipements & Machines Virtuelles (VM)</th>
+                                        <th>Adresses IP statiques associées</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>VLAN 1 (Attente)</strong></td>
+                                        <td><code>10.20.14.0 /26</code></td>
+                                        <td>VLAN en attente</td>
+                                        <td>Plage réservée pour l'évolution future de l'infrastructure.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>VLAN 2 (DMZ)</strong></td>
+                                        <td><code>10.20.14.64 /26</code></td>
+                                        <td>Serveur Web Linux (DMZ)</td>
+                                        <td><code>SERV-WEB-THOMAS</code> : <code>10.20.14.120</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>VLAN 3 (Postes Clients)</strong></td>
+                                        <td><code>10.20.14.128 /26</code></td>
+                                        <td>Postes clients physiques du domaine</td>
+                                        <td><code>PC-VIP</code> : <code>10.20.14.167</code> / <code>PC-CLIENT</code> : <code>10.20.14.168</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>LAN (Serveurs & Cœur)</strong></td>
+                                        <td><code>10.20.14.192 /26</code></td>
+                                        <td>Hyperviseur, Active Directory & Supervision Zabbix</td>
+                                        <td>
+                                            Routeur MikroTik : <code>10.20.14.254</code><br>
+                                            Hyper-V : <code>10.20.14.214</code><br>
+                                            <code>SERV-AD-THOMAS</code> : <code>10.20.14.240</code><br>
+                                            <code>SERV-ZABBIX-THOMAS</code> : <code>10.20.14.247</code>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Détails techniques des services déployés (AD, GPO, DFS, NTP, Zabbix) -->
+                        <div class="grille_ppe_haut">
+                            <div class="bloc_info_ppe">
+                                <h3>4. Administration Windows, GPO & Partages DFS</h3>
+                                <ul>
+                                    <li><strong>Active Directory & GPO (<code>ishep.local</code>) :</strong> Création d'une arborescence d'Unités d'Organisation (OU) séparant les catégories <em>VIP</em> et <em>Employés</em> ainsi que les 3 services (méthode AGDLP). Déploiement de GPO ciblées : message d'accueil différencié à l'ouverture de session, fond d'écran par profil, blocage des ports USB uniquement sur les postes non-VIP et montage automatique du lecteur réseau.</li>
+                                    <li><strong>Stockage distribué (DFS) :</strong> Mise en place de l'espace de noms <code>\\ishep.local\PartagesDFS</code> (lecteur mappé <code>X:</code>) centralisant les dossiers <em>Commun</em>, <em>Direction</em>, <em>Commercial</em> et <em>Production</em> avec activation de l'<strong>énumération basée sur l'accès (ABE)</strong> pour masquer aux utilisateurs les dossiers auxquels ils n'ont pas droit.</li>
+                                    <li><strong>Synchronisation horaire (NTP) :</strong> Configuration du service <code>w32time</code> sur le contrôleur de domaine (<code>SERV-AD</code>) comme source fiable du domaine et synchronisation hiérarchique (<code>domhier</code>) des postes clients vérifiée via <code>nltest</code>.</li>
+                                </ul>
+                            </div>
+
+                            <div class="bloc_info_ppe">
+                                <h3>5. Supervision centralisée sous Zabbix 7.0</h3>
+                                <ul>
+                                    <li><strong>Serveur Zabbix (Debian 13) :</strong> Installation complète de Zabbix Server 7.0 LTS avec base de données MySQL et interface web d'administration.</li>
+                                    <li><strong>Agents actifs & passifs :</strong> Déploiement de <strong>Zabbix Agent 2</strong> en mode <em>actif</em> sur <code>SERV-AD</code>, <code>PC-VIP</code> et <code>PC-CLIENT</code>, et en mode <em>passif</em> (port 10050) sur l'hôte Hyper-V et le serveur Web <code>SERV-WEB-THOMAS</code> en DMZ (afin qu'aucune connexion ne soit initiée depuis la DMZ vers le réseau interne).</li>
+                                    <li><strong>Supervision réseau SNMPv2 :</strong> Activation et configuration du protocole <strong>SNMPv2</strong> (port 161, communauté dédiée) sur le routeur/switch <strong>MikroTik</strong> pour surveiller l'état des interfaces et le trafic en temps réel.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pied_ppe_bilan">
+                            <div class="competences_ppe">
+                                <strong>Compétences E5 / E6 mobilisées :</strong>
+                                <span class="tag_comp">C1 - Gérer le patrimoine informatique</span>
+                                <span class="tag_comp">C2 - Répondre aux incidents et supervision</span>
+                                <span class="tag_comp">C4 - Travailler en mode projet</span>
+                                <span class="tag_comp">C5 - Mettre à disposition un service</span>
+                            </div>
+                            <p class="bilan_texte_ppe"><strong>6. Bilan & Livrables documentaires :</strong> Ce projet d'envergure m'a permis de maîtriser l'architecture complète d'un système d'information (segmentation réseau, routage statique, durcissement DMZ, administration AD/GPO/DFS et supervision multi-protocoles). Chaque brique technique a fait l'objet d'une <strong>documentation d'installation et d'exploitation détaillée</strong> (procédures Zabbix 7.0, DFS et NTP).</p>
+                        </div>
+                    </article>
+
+                </div>
+            </main>
+        </div>
+
+        <footer>  
+        </footer>
+    </body>
+</html>
